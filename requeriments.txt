@@ -1,0 +1,10 @@
+pandas
+notebook
+duckdb
+pyarrow
+matplotlib
+seaborn
+mlflow
+lightgbm
+xgboost
+imbalanced-learn
