@@ -109,8 +109,7 @@ A política adota então um **corte direto por limiar de PD**:
 | Faixa de PD | Perfil de risco | Decisão |
 |---|---|---|
 | PD < 0,50 | Baixo | ✅ **Aprovado** |
-| 0,50 ≤ PD < 0,79 | Médio-alto | ⚠️ **Análise manual** |
-| PD ≥ 0,79 | Alto | ❌ **Recusado automaticamente** |
+| PD ≥ 0,50 | Alto | ❌ **Recusado automaticamente** |
 
 > ⚠️ Um ponto crítico: **~54,6% da base** recebe PD = 0,6187 — a folha mais populosa da árvore. O modelo não consegue discriminar internamente esses contratos, reforçando a necessidade de análise manual nessa faixa e de evolução do modelo no médio prazo.
 
